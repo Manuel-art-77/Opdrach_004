@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: darkgrey;
+    color: yellow;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    line-height: 1,6em;
+    margin: 0;
+
+}
+
+#green-background {
+    background-color: green;
+    border: 5px 5px black solid;
+}
+
+p {
+    color: white;
+}
+
+h3{ /*
+    font-size: 100px;
+  width: 370px;
+  height: 100px;
+  background:black;
+  color: aliceblue;
+  position: relative;
+  animation: mymove 5s infinite;
+  */
+  width: 150px;
+  height: 40px;
+  font-size: 40px;
+  background: red;
+  position: relative;
+  animation: myfirst 5s infinite;
+  animation-direction: alternate;
+}
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+/*
+@keyframes mymove {
+  from {left: 50px;}
+  to {left: 200px;}
+*/
+}
+
+.container{
+    width:80%;
+    margin:auto;
+
+}
+
+.box-1{
+    background-color: #333;
+    color:#fff;
+
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+    border-left:5px red solid;
+    border-right:5px royalblue solid;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
